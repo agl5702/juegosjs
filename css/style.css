@@ -1,0 +1,53 @@
+body{ 
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../fondo3.jpg);
+}
+
+
+.juegos{
+    display: flex;
+    text-align: center;
+}
+.juegos img{
+    width: 300px;
+}
+@keyframes movimiento{
+    0%{
+        scale: 1.2;
+    }
+    100%{
+        scale: 1;
+    }
+}
+.juegos img:hover{
+    animation-name: movimiento;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.juegos a{
+    margin: 50px;
+    text-decoration: none;
+    
+}
+
+.juegos a:visited{
+    color:#fff;
+}
+h2{
+    font-size: 50px;
+}
+footer{
+    margin-top: 150px;
+}
+footer p{
+    font-size: 30px;
+    color: #fff;
+}
